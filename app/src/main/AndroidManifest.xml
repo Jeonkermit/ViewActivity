@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".SampleViewHolder"
+            android:exported="true" />
+        <activity
+            android:name=".SampleAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
